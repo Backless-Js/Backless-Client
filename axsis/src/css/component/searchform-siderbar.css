@@ -1,0 +1,26 @@
+.search-form-siderbar {
+    width: 100%;
+    position: relative;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    overflow: hidden; 
+}
+.search-form-siderbar input {
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #fff; 
+}
+.search-form-siderbar input:active, .search-form-siderbar inputfocus, .search-form-siderbar input:hover {
+    border-color: #6f64e7; 
+}
+.search-form-siderbar svg {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -9px; 
+}

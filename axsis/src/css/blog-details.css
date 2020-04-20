@@ -1,0 +1,125 @@
+
+
+.entry-wrapper {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px; 
+}
+  
+.entry-single .tag-list li:first-child, .entry-single .share-list li:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #273167; 
+}
+.entry-single .entry-header {
+    margin-bottom: 20px; 
+}
+.entry-single .entry-header img {
+    width: 100%; 
+}
+.entry-single .title {
+    font-size: 24px; 
+}
+.entry-single p span {
+    color: #6f64e7; 
+}
+  
+blockquote {
+    padding: 25px 30px 25px 25px;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+blockquote:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #6f64e7; 
+}
+blockquote:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    width: 72px;
+    height: 60px;
+    background-image: url(../images/qoute.png);
+    z-index: 2;
+    background-repeat: no-repeat; 
+}
+blockquote p {
+    font-size: 20px;
+    color: #363636;
+    margin-bottom: 15px;
+    line-height: 30px; 
+}
+blockquote span {
+    font-size: 14px;
+    color: #6f64e7; 
+}
+blockquote span span {
+    color: #677294; 
+}
+@media (min-width: 768px) {
+    blockquote {
+    padding: 25px 150px 25px 60px; }
+    blockquote:before {
+        right: 45px;
+        top: 50%;
+        width: 72px;
+        height: 60px;
+        margin-top: -50px; 
+    } 
+}
+
+
+
+
+
+
+/* tag area */
+.tag-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.tag-area h5 {
+    width: 65px;
+}
+.tag-area .tag-list {
+    width: calc(100% - 70px);
+    margin-bottom: 0;
+}
+.tag-area .tag-list li a {
+    margin: 8px;
+}
+
+
+/* share area */
+.share-area {
+    display: flex;
+    align-items: center;
+}
+.share-area h5 {
+    width: 75px;
+}
+.share-area .share-list {
+    width: calc(100% - 80px);
+    margin-bottom: 0;
+}
+
+
+/* comments */
+.comment-title {
+    color: #273167;
+    font-weight: 400; 
+}
+.comment-title svg {
+    fill: #6f64e7;
+    margin-right: 7px; 
+}

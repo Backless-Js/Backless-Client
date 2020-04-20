@@ -1,0 +1,26 @@
+
+
+
+.share-list li {
+    display: inline-block; 
+}
+.share-list li a {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #e1e1e1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share-list li a:hover {
+    background-color: #6f64e7;
+    color: #fff; 
+}

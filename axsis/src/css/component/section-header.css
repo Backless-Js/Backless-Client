@@ -1,0 +1,15 @@
+
+
+.section-header h3 {
+    line-height: 1.3;
+}
+.section-header h6 {
+    font-weight: 400;
+    color: #677294;
+    font-size: 18px;
+    line-height: 32px;
+}
+.section-header .sub-title {
+    line-height: 2;
+    color: #273167;
+}

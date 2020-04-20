@@ -1,0 +1,44 @@
+
+.page-header {
+    height: 320px;
+    background-image: url(./../images/page-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.page-header .page-header-content h1 {
+    font-size: 40px; 
+}
+.page-header .page-header-content .breadcrumb {
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    margin-bottom: 0; 
+}
+.page-header .page-header-content .breadcrumb li {
+    font-size: 16px;
+    color: #677294;
+    padding: 5px; 
+}
+.page-header .page-header-content .breadcrumb li a {
+    color: #273167;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+.page-header .page-header-content .breadcrumb li a:hover {
+    color: #6f64e7; 
+}
+.page-header .page-header-content {
+    padding-top: 85px; 
+}
+
+@media (min-width: 1500px) {
+    .page-header {
+        height: 500px; 
+    } 
+    .page-header .page-header-content {
+        padding-top: 0; 
+    }
+}

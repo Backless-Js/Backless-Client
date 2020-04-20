@@ -1,0 +1,111 @@
+
+
+
+.container-sm {
+    max-width: 960px;
+    margin: auto; 
+}
+  
+.faq {
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0px 10px 0 rgba(34, 34, 34, 0.06);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+.faq:last-child {
+    margin-bottom: 0; 
+}
+.faq .faq-header {
+    box-shadow: 0 0px 10px 0 rgba(34, 34, 34, 0.06);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+.faq .faq-header .btn-link {
+    width: 100%;
+    padding: 20px 50px 22px 80px;
+    text-align: left;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #273167;
+    border: none;
+    position: relative;
+    cursor: pointer; 
+}
+.faq .faq-header .btn-link .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #6f64e7;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.faq .faq-header .btn-link .fa-minus {
+    display: block; 
+    transition: all 0.3s ease;
+}
+.faq .faq-header .btn-link .fa-plus {
+    display: none; 
+    transition: all 0.3s ease;
+}
+.faq .faq-header .btn-link {
+    color: #273167; 
+}
+.faq .faq-header .btn-link .icon {
+    background-color: #ebebeb;
+}
+.faq .faq-header .btn-link[aria-disabled=true] .icon .fa-minus {
+    display: none;
+}
+.faq .faq-header .btn-link[aria-disabled=true] .icon {
+    background-color: #273167;
+}
+.faq .faq-header .btn-link[aria-disabled=true] .icon .fa-plus {
+    display: block; 
+    fill: white;
+}
+.faq .faq-body {
+    padding: 20px 30px 20px 40px; 
+    text-align: left;
+}
+.faq .faq-body p {
+    font-size: 16px;
+    line-height: 2.2; 
+    transition: all 0.3s ease;
+}
+.faq .faq-body p:last-child {
+    margin-bottom: 0; 
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .faq .faq-body {
+        padding: 60px 90px 60px 90px; 
+    } 
+}
+@media (min-width: 1500px) {
+    .faq .faq-header .btn-link {
+        font-size: 18px; 
+    } 
+}
+
+
+
+
+/* .accodion-style--1 .accordion__item .accordion__heading .accordion__button[aria-disabled=true]:after, 
+.accodion-style--1 .accordion__item .accordion__heading .accordion__button[aria-expanded=true]:after */

@@ -1,0 +1,27 @@
+
+
+.widget-tab li{
+    width: 50%;
+    font-size: 14px;
+    position: relative;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.widget-tab li:active,.widget-tab li:focus,.widget-tab li:hover {
+    outline: none;
+}
+.widget-tab li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #bfc4d2; 
+}
+.widget-tab li.react-tabs__tab--selected {
+    font-weight: 900; 
+}
+.widget-tab li.react-tabs__tab--selected:after {
+    background-color: #6f64e7; 
+}

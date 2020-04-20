@@ -1,0 +1,108 @@
+.search-body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(39, 49, 103, 0.98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    transform-origin: top;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+.search-body .menu-search-form {
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; 
+}
+.search-body .menu-search-form input {
+    width: 100%;
+    padding: 20px 40px;
+    font-size: 24px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none; 
+}
+.search-body .menu-search-form input::placeholder {
+    color: #fff; 
+}
+        
+.search-body .menu-search-form i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: #fff;
+    display: none; 
+}
+.search-body .close-search {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    cursor: pointer; 
+}
+.search-body .close-search:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -3px;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); 
+}
+.search-body .close-search:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -3px;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); 
+}
+  
+.search-open .search-body {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1); 
+}
+.search-open .menu-search-form {
+    transition-delay: 0.5s;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px); 
+}
+
+@media (min-width: 992px) {
+    .search-body .menu-search-form input {
+        font-size: 36px; 
+    } 
+}

@@ -1,0 +1,23 @@
+
+
+.tag-list {
+    padding: 25px 0; 
+}
+.tag-list li {
+    display: inline-block; 
+}
+.tag-list li a {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 12px;
+    border: 1px solid #ebebeb;
+    color: #273167;
+    border-radius: 30px;
+    margin-right: 8px;
+    margin-bottom: 8px; 
+}
+.tag-list li a:hover {
+    background-color: #6f64e7;
+    color: #fff;
+    border-color: #6f64e7; 
+}

@@ -1,0 +1,63 @@
+
+
+.pagination li {
+    margin-right: 10px; 
+}
+.pagination li a {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    color: #273167;
+    text-align: center;
+    line-height: 35px;
+    display: block;
+    font-size: 13px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+.pagination li a.active, .pagination li a:hover {
+    background-color: #6f64e7;
+    color: #fff; 
+}
+.pagination li:last-child {
+    margin-right: 0; 
+}
+.pagination li:last-child a {
+    width: auto;
+    height: auto; 
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #6f64e7;
+}
+.pagination li:last-child a svg {
+    width: 25px;
+    height: 35px;
+    background-color: #675cdc;
+    fill: #fff; 
+}
+.pagination li:last-child a .text {
+    padding: 0px 20px;
+    background-color: #6f64e7;
+    color: #fff; 
+}
+.pagination li:first-child a {
+    width: auto;
+    height: auto; 
+    align-items: center;
+    justify-content: center;
+    background-color: #6f64e7;
+}
+.pagination li:first-child a svg {
+    width: 25px;
+    height: 35px;
+    background-color: #675cdc;
+    fill: #fff; 
+}
+.pagination li:first-child a .text {
+    padding: 0px 20px;
+    background-color: #6f64e7;
+    color: #fff; 
+}
