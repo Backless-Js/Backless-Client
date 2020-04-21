@@ -7,7 +7,7 @@ const FeatureList = [
     {
         icon: <FaUserCircle />,
         title: 'Beginner Friendly Interface',
-        description: 'Easy to use for a beginner programmer who wants to build their own server.'
+        description: 'Easy to use for beginners web devs who want to build their own server.'
     },
     {
         icon: <FaLockOpen />,
@@ -17,22 +17,22 @@ const FeatureList = [
     {
         icon: <FaToolbox />,
         title: 'Customizeable',
-        description: 'Each project requires specific requirements. Easily customize the admin panel as well as the API.'
+        description: 'Each project has different requirements. Easily tailor it to your needs.'
     },
     {
         icon: <FaJs />,
         title: '100% Javascript',
-        description: 'One language to rule them all. Use JavaScript everywhere: both for your front-end and your Headless CMS.'
+        description: 'One language to rule them all. Pure JavaScript everywhere.'
     },
     {
         icon: <FaExchangeAlt />,
         title: 'RESTful API',
-        description: 'Lorem ipsum dolor sit amet, conseda adipiscing elit. Aenean commodo ligula eget dolorAenean massa. Cum sociind'
+        description: 'Classic & reliable way to communicate between applications.'
     },
     {
         icon: <FaClock />,
         title: 'Quick Set-up',
-        description: 'Lorem ipsum dolor sit amet, conseda adipiscing elit. Aenean commodo ligula eget dolorAenean massa. Cum sociind'
+        description: 'Just a few command lines away to build your own server in mere seconds.'
     },
 ]
 
@@ -54,9 +54,9 @@ class Feature extends Component {
                     <div className="row justify-content-center justify-content-lg-start">
                         {FeatureList.map((val, i) => (
                             <div className="col-md-6 col-lg-4 mb--30 mb-lg-0" key={i}>
-                                <div className="feature-item text-left">
+                                <div className="feature-item text-left mb-4">
                                     <div className="icon-box">
-                                        <div className="icon">
+                                        <div className="icon d-flex flex-row justify-content-center align-items-center">
                                             {val.icon}
                                         </div>
                                         <img

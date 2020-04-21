@@ -44,11 +44,26 @@
     animation: bounce 1s;
 }
 
+.col-lg-4:nth-child(1) .icon-box .icon{
+    background-color: #6bd624;
+    box-shadow: 0 3px 20px 0 rgba(251, 176, 25, 0.15);
+}
+
 .col-lg-4:nth-child(2) .icon-box .icon{
-    background-color: #fbb019;
+    background-color: #ff8716;
     box-shadow: 0 3px 20px 0 rgba(251, 176, 25, 0.15);
 }
 .col-lg-4:nth-child(3) .icon-box .icon{
-    background-color: #fc60b2;
+    background-color: #ff2957;
+    box-shadow: 0 3px 20px 0 rgba(252, 96, 178, 0.15);
+}
+
+.col-lg-4:nth-child(4) .icon-box .icon{
+    background-color: #fbb019;
+    box-shadow: 0 3px 20px 0 rgba(252, 96, 178, 0.15);
+}
+
+.col-lg-4:nth-child(5) .icon-box .icon{
+    background-color: #0088ff;
     box-shadow: 0 3px 20px 0 rgba(252, 96, 178, 0.15);
 }

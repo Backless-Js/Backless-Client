@@ -10,7 +10,7 @@ import './../css/sidebar.css';
 class SmallPostTab extends Component {
     render() {
         return (
-            <div className="sidebar-wrapper position-sticky" style={{ top: "150px" }}>
+            <div className="sidebar-wrapper position-sticky" style={{ top: "125px" }}>
                 {/* Catagory Widget */}
                 <div className="widget">
                     <h5 className="widget-title">Get Started</h5>

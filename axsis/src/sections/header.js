@@ -42,8 +42,8 @@ class Header extends Component {
                         <div className="row m-0 align-items-center">
                             <div className="col-lg-2 p-0 d-flex justify-content-between align-items-center">
                                 <div className="logo">
-                                    <Link className="navbar-brand navbar-brand1" to="/#"><img src="assets/images/BacklessNavbar.png" alt="logo" /></Link>
-                                    <Link className="navbar-brand navbar-brand2" to="/#" ><img src="assets/images/Cropped.png" alt="logo" /></Link>
+                                    <Link className="navbar-brand navbar-brand1" to="/#"><img src="assets/images/BacklessNavbar.png" style={{height:'50px'}} alt="logo" /></Link>
+                                    <Link className="navbar-brand navbar-brand2" to="/#" ><img src="assets/images/Cropped.png" style={{height:'50px'}} alt="logo" /></Link>
                                 </div>
                                 <div className="menu-bar d-lg-none" onClick={this.menuTrigger}>
                                     <span></span>
@@ -53,7 +53,7 @@ class Header extends Component {
                             </div>
                             <div className="op-mobile-menu col-lg-10 p-0 d-lg-flex align-items-center justify-content-end">
                                 <div className="m-menu-header d-flex justify-content-between align-items-center d-lg-none">
-                                    <Link to="/#" className="logo"><img src="assets/images/logo.png" alt="logo" /></Link>
+                                    <Link to="/#" className="logo"><img src="assets/images/BacklessNavbar.png" style={{height:'50px'}} alt="logo" /></Link>
                                     <span className="close-button" onClick={this.closeMenuTrigger}>
                                         <span></span>
                                         <span></span>

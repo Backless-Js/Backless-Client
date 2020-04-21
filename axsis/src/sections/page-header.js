@@ -11,7 +11,7 @@ class PageHeader extends Component {
                     <h1>{title}</h1>
                     <ul className="breadcrumb">
                         <li><Link to="/">Home</Link></li>
-                        <li></li>
+                        <li>/</li>
                         <li>{title}</li>
                     </ul>
                 </div>

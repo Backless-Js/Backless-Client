@@ -1,47 +1,47 @@
 .footer-top {
-    background-color: #eef3fa; 
+    background-color: #eef3fa;
 }
-  
+
 .footer-bottom {
     background-color: #eaeef6;
-    padding: 29px 0; 
+    padding: 29px 0;
 }
 .footer-bottom p {
     margin-bottom: 0;
     font-size: 13px;
-    color: #677294; 
+    color: #677294;
 }
 .footer-bottom p span, .footer-bottom p i {
-    margin-right: 4px; 
+    margin-right: 4px;
 }
-  
+
 .footer-logo {
     display: block;
-    margin-bottom: 35px; 
+    margin-bottom: 35px;
 }
-  
+
 .footer-contact-info {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 .footer-contact-info li {
     color: #051441;
     line-height: 2;
-    font-size: 15px; 
+    font-size: 15px;
 }
 .footer-contact-info li a {
-    color: #051441; 
+    color: #051441;
 }
-  
+
 .footer-email-form {
     position: relative;
     max-width: 270px;
     width: 100%;
-    margin: auto; 
+    margin: auto;
 }
 @media (min-width: 768px) {
     .footer-email-form {
-        margin: unset; 
-    } 
+        margin: unset;
+    }
 }
 .footer-email-form input {
     width: 100%;
@@ -51,38 +51,38 @@
     outline: none;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 .footer-email-form input:focus, .footer-email-form input:active, .footer-email-form input:hover {
-    border-color: #273167; 
+    border-color: #273167;
 }
 .footer-email-form svg {
     position: absolute;
     right: 20px;
     top: 50%;
-    margin-top: -9px; 
+    margin-top: -9px;
 }
-  
+
 .footer-widget .footer-title {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 .footer-widget ul li {
-    padding: 14px 0;
+    padding: 10px 0;
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 14px;
 }
 .footer-widget ul li a {
     color: #677294;
 }
 .footer-widget ul li a:hover {
-    color: #273167; 
+    color: #273167;
 }
 .footer-widget .play-store .custom-btn {
     padding: 10px 20px;
     border: 1px solid #273167;
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 3px; 
+    border-radius: 3px;
     min-width: 180px;
     margin-bottom: 30px;
     display: block;
@@ -95,7 +95,7 @@
     fill: #273167;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
 }
 .footer-widget .play-store .custom-btn p {
     font-size: 12px;
@@ -105,7 +105,7 @@
     font-weight: 500;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
 }
 .footer-widget .play-store .custom-btn p span {
     display: block;
@@ -114,19 +114,19 @@
     font-weight: 500;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
 }
 .footer-widget .play-store .custom-btn:hover {
-    background-color: #273167; 
+    background-color: #273167;
 }
 .footer-widget .play-store .custom-btn:hover svg {
-    fill: #fff; 
+    fill: #fff;
 }
 .footer-widget .play-store .custom-btn:hover p {
-    color: #fff; 
+    color: #fff;
 }
 .footer-widget .play-store .custom-btn:hover p span {
-    color: #fff; 
+    color: #fff;
 }
 
 

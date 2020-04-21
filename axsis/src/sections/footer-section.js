@@ -25,13 +25,15 @@ class Footer extends Component {
                                 <div className="footer-widget text-center text-lg-left mb--30 mb-lg-0">
                                     <h5 className="footer-title">Docs</h5>
                                     <ul className="list-ustyled pl-0 pb-0 list-unstyled">
-                                        <li><Link to="/">Pre-requisite</Link></li>
-                                        <li><Link to="/">Installation</Link></li>
-                                        <li><Link to="/">Help</Link></li>
-                                        <li><Link to="/">Version</Link></li>
-                                        <li><Link to="/">Updating</Link></li>
-                                        <li><Link to="/">Usage</Link></li>
-                                        <li><Link to="/">Authentication</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#pre-requisite">Pre-requisite</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#installation">Installation</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#help">Help</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#version">Version</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#updating">Updating</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#usage">Usage</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#backless-command">Backless Command</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#adding-another-model">Adding Another Model</Link></li>
+                                        <li><Link to="/blog-list-left-sidebar/#authentication">Authentication</Link></li>
                                     </ul>
                                 </div>
                             </div>
