@@ -1,6 +1,0 @@
--
-  name: 'http://google.com/'
-  uri:
-    url: 'http://google.com'
-    method: POST
-  register: result
