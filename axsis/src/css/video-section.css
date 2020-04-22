@@ -1,7 +1,10 @@
 
 
 .video-section {
-    background-image: url(../images/video-section/bg.jpg);
+    background-image: url(../images/video-section/backless-video.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .video-section .overlay {
     background-color: rgba(0, 0, 0, 0.75);

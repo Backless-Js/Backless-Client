@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 const BlogListContent = [
     {
         title: 'KONTOL dictum felis eu pede mollis pretium',

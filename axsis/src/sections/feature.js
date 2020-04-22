@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaToolbox, FaClock, FaJs, FaExchangeAlt, FaLockOpen, FaRegImages, FaUserCircle } from "react-icons/fa";
+import { FaToolbox, FaClock, FaJs, FaExchangeAlt, FaLockOpen, FaUserCircle } from "react-icons/fa";
 import SectionHeader from './../component/section-header';
 import './../css/feature.css';
 
@@ -37,13 +37,15 @@ const FeatureList = [
 ]
 
 // header section content
-const title = <h3 className="mb--25">A valuable feature is more <br />important to know our apps deep.</h3>;
+const title = <h3 className="mb--25">Simple yet packed<br />full of features & functionality.</h3>;
 const alignment = 'section-header text-center pb--60';
 
 class Feature extends Component {
     render() {
         return (
-            <section id="feature" className="feature-section pt--60 pb--60 pt_lg--100 pb_lg--100">
+            <>
+            <div id="feature" style={styles.headerOffset}></div>
+            <section className="feature-section pt--60 pb--60 pt_lg--100 pb_lg--100">
                 <div className="container">
                     <SectionHeader
                         title={title}
@@ -72,8 +74,16 @@ class Feature extends Component {
                     </div>
                 </div>
             </section>
+            </>
         )
     }
 }
+
+const styles = {
+    headerOffset: {
+      paddingTop: "75px",
+      marginTop: "-75px",
+    },
+  }
 
 export default Feature;

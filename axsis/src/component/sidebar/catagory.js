@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './../../css/component/catagory.css';
 
 const catagoryList = [
     {
-        catagoryName: "Pre-requisite",
-        catagoryRef: "#pre-requisite"
+        catagoryName: "Introduction",
+        catagoryRef: "#introduction"
+    },
+    {
+        catagoryName: "Quick Demo",
+        catagoryRef: "#quick-demo"
+    },
+    {
+        catagoryName: "Prerequisites",
+        catagoryRef: "#prerequisites"
     },
     {
         catagoryName: "Installation",
@@ -28,7 +36,7 @@ const catagoryList = [
         catagoryRef: "#usage"
     },
     {
-        catagoryName: "Backless Command",
+        catagoryName: "Backless Command Line",
         catagoryRef: "#backless-command"
     },
     {

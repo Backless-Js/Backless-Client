@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './../../css/component/blog.css';
-import { FaRegClock, FaRegUser, FaRegHeart, FaRegCommentAlt } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+// import { FaRegClock, FaRegUser, FaRegHeart, FaRegCommentAlt } from "react-icons/fa";
+// import { Link } from 'react-router-dom';
 import BlogListContent from './blog-list-content';
 
 class BlogList extends Component {

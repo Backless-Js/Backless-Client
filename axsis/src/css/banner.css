@@ -119,8 +119,8 @@
     }
     .banner-image-content {
         position: absolute;
-        left: 50%;
-        top: 0;
+        left: 45%;
+        top: -35px;
         width: 50%;
         height: 100%;
         padding-left: 100px;

@@ -22,9 +22,9 @@ class VideoSection extends Component {
                 <div className="overlay pt--60 pb--60 pt_lg--160 pb_lg--160">
                     <div className="axsis-video-btn">
                         <span className="before-btn">Watch this video</span>
-                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='Gg5kg9xQYnU' onClose={() => this.setState({isOpen: false})} />
+                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='NGNqWhuR34s' onClose={() => this.setState({isOpen: false})} />
                         <button className="axsis-play-btn" onClick={this.openModal}><FaPlay /></button>
-                        <span className="after-btn">to know how it work.</span>
+                        <span className="after-btn">to know how it works.</span>
                     </div>
                 </div>
             </div>

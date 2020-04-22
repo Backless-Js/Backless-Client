@@ -3,14 +3,7 @@ import './../css/app.css';
 import Header from './../sections/header';
 import Banner from './../sections/banner';
 import Feature from './../sections/feature';
-import ScreenShot from './../sections/screenshot';
 import VideoSection from './../sections/video-section';
-import InterfaceSliderSection from './../sections/interface-slider-section';
-import PricingSection from './../sections/pricing-section';
-import TestimonialSection from './../sections/testimonial-section';
-import FaqSection from './../sections/faq-section';
-import BlogSection from '../sections/blog-section';
-import ContactSection from '../sections/contact-section';
 import Footer from '../sections/footer-section';
 
 class App extends Component {
