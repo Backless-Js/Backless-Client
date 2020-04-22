@@ -1,0 +1,155 @@
+
+
+.axsis-price-control {
+    margin-bottom: 60px;
+}
+
+.axsis-price-control li {
+    padding: 13px 30px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500; 
+    cursor: pointer;
+}
+.axsis-price-control li.react-tabs__tab--selected {
+    background-color: #6f64e7;
+    color: #fff;
+    border-color: #6f64e7; 
+}
+.axsis-price-control li:first-child {
+    -webkit-border-radius: 3px 0px 0px 3px;
+    -moz-border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0px 0px 3px; 
+}
+.axsis-price-control li:last-child {
+    -webkit-border-radius: 0px 3px 3px 0px;
+    -moz-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px; 
+}
+  
+
+
+.axsis-pricing-item {
+    padding: 35px 20px 25px 20px;
+    -webkit-box-shadow: 0 0 10px rgba(12, 0, 46, 0.06);
+    -moz-box-shadow: 0 0 10px rgba(12, 0, 46, 0.06);
+    box-shadow: 0 0 10px rgba(12, 0, 46, 0.06);
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.axsis-pricing-item .pricing-head {
+    padding: 6px 20px; 
+}
+
+.axsis-pricing-item .pricing-head .category-type span {
+    font-size: 22px;
+    color: #273167;
+    font-weight: 700;
+    display: inline-block; 
+}
+.axsis-pricing-item .pricing-head .price {
+    font-size: 65px;
+    color: #6f64e7;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+.axsis-pricing-item .pricing-head .price .dollar-sign {
+    font-size: 36px;
+    color: #6f64e7;
+    font-weight: 400;
+    position: absolute;
+    left: -20px;
+    top: 16px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+.axsis-pricing-item .pricing-head .price .per-time {
+    font-size: 18px;
+    color: #363636;
+    font-weight: 400;
+    margin-left: -15px; 
+}
+
+.axsis-pricing-item .pricing-head .free-trial-content {
+    color: #d7d7d7;
+    font-size: 13px;
+    margin-bottom: 0; 
+}
+.axsis-pricing-item .pricing-body {
+    padding: 6px 0; 
+}
+.axsis-pricing-item .pricing-body .pricing-feature-list {
+    margin-bottom: 20px; 
+}
+.axsis-pricing-item .pricing-body .pricing-feature-list li {
+    line-height: 2.4;
+    font-size: 15px; 
+}
+.axsis-pricing-item .pricing-body .custom-btn {
+    color: #fff;
+    background-color: #6f64e7;
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700; 
+}
+.axsis-pricing-item .pricing-body .hidden-charge {
+    font-size: 14px;
+    color: #777b92;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0; 
+}
+.axsis-pricing-item:hover .pricing-head .price, .axsis-pricing-item:hover .pricing-head .price .dollar-sign, .axsis-pricing-item:hover .pricing-head .price, .axsis-pricing-item.active .pricing-head .price, .axsis-pricing-item.active .pricing-head .price .dollar-sign, .axsis-pricing-item.active .pricing-head .price {
+    color: #8dc63f; 
+}
+.axsis-pricing-item:hover .pricing-body .custom-btn, .axsis-pricing-item.active .pricing-body .custom-btn {
+    background-color: #8dc63f;
+    border-color: #8dc63f;
+    color: #fff; 
+}
+  
+/* .active > .axsis-pricing-item .pricing-head .dollar-sign, .active > .axsis-pricing-item .pricing-head .price {
+    color: #8dc63f; 
+}
+.active > .axsis-pricing-item .pricing-body .custom-btn {
+    background-color: #8dc63f;
+    border-color: #8dc63f;
+    color: #fff; 
+} */
+
+
+
+@media (min-width: 1500px) {
+    .axsis-pricing-item .pricing-body {
+        padding: 15px 0; 
+    }
+    .axsis-pricing-item .pricing-body .pricing-feature-list {
+        margin-bottom: 25px; 
+    }
+    .axsis-pricing-item .pricing-body .pricing-feature-list li {
+        font-size: 16px;
+        line-height: 2.8; 
+    } 
+    .axsis-pricing-item .pricing-body .custom-btn {
+        padding: 16px 43px; 
+    } 
+    .axsis-pricing-item .pricing-head .price {
+        font-size: 80px; 
+    } 
+    .axsis-pricing-item .pricing-head {
+        padding: 15px 20px;
+    }
+}

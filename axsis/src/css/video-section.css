@@ -1,0 +1,207 @@
+
+
+.video-section {
+    background-image: url(../images/video-section/backless-video.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.video-section .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.axsis-video-btn {
+    width: 300px;
+    position: relative;
+    margin: auto;
+}
+.axsis-video-btn .before-btn {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    display: none;
+}
+.axsis-video-btn .after-btn {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    display: none;
+}
+.axsis-play-btn {
+    width: 65px;
+    height: 65px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #6f64e7;
+    color: #fff;
+    margin: auto;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.axsis-play-btn svg {
+    width: 24px;
+    margin-left: 6px;
+    fill: white;
+}
+.axsis-play-btn:active,.axsis-play-btn:focus {
+    outline: none;
+    background-color: #fff;
+}
+.axsis-play-btn:hover {
+    background-color: #fff;
+}
+.axsis-play-btn:hover svg{
+    fill: #6f64e7;
+}
+
+/* modal video */
+.modal-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1000000;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-name: modal-video;
+    animation-name: modal-video;
+    -webkit-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}
+.modal-video-body {
+    max-width: 940px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: table;
+}
+.modal-video-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.modal-video-movie-wrap {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    background-color: #333;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-name: modal-video-inner;
+    animation-name: modal-video-inner;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+}
+.modal-video-close-btn {
+    position: absolute;
+    z-index: 2;
+    top: -35px;
+    right: -35px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: none;
+    background: transparent;
+}
+.modal-video-close-btn:active,.modal-video-close-btn:focus,.modal-video-close-btn:hover {
+    outline: none;
+}
+.modal-video-movie-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-video-close-btn:after, .modal-video-close-btn:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: -6px;
+}
+.modal-video-close-btn:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.modal-video-close-btn:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
+@media (min-width: 576px){
+    .axsis-video-btn {
+        width: 120px;
+    }
+    .axsis-video-btn .before-btn {
+        font-weight: 700;
+        position: absolute;
+        right: 100%;
+        top: 50%;
+        margin-top: -15px;
+        white-space: nowrap;
+        display: block;
+    }
+    .axsis-video-btn .after-btn {
+        font-weight: 700;
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        margin-top: -15px;
+        white-space: nowrap;
+        display: block;
+    }
+    .axsis-play-btn {
+        width: 95px;
+        height: 95px;
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 768px){
+    .axsis-video-btn {
+        width: 120px;
+    }
+    .axsis-video-btn .before-btn {
+        font-size: 26px;
+    }
+    .axsis-video-btn .after-btn {
+        font-size: 26px;
+    }
+    .axsis-play-btn svg {
+        width: 40px;
+        margin-left: 6px;
+        fill: white;
+    }
+}

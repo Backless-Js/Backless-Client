@@ -1,0 +1,82 @@
+.axsis-testimonial-container {
+    padding: 20px 0px 80px 0px;
+    position: relative; 
+}
+.axsis-testimonial-container .testimonial-body {
+    padding: 45px 35px 30px 35px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+}
+.axsis-testimonial-container .author-image {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+.axsis-testimonial-container .author-image img {
+    width: 100%; 
+}
+.axsis-testimonial-container .testimonial-content {
+    width: calc(100% - 0px);
+    text-align: center;
+    padding-left: 0;
+    position: relative; 
+}
+.axsis-testimonial-container .testimonial-content .rating {
+    margin-bottom: 10px;
+    margin-top: 15px; 
+}
+.axsis-testimonial-container .testimonial-content .rating i {
+    color: #f6c416; 
+}
+.axsis-testimonial-container .testimonial-content .text {
+    margin-bottom: 25px; 
+}
+.axsis-testimonial-container .testimonial-content .name {
+    font-weight: 600;
+    margin: 0; 
+}
+.axsis-testimonial-container .testimonial-content .designation {
+    font-size: 14px;
+    color: #d1d1d1; 
+}
+.axsis-testimonial-container .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #ebebeb;
+    opacity: 1; 
+}
+.axsis-testimonial-container .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #6f64e7; 
+}
+
+/* Responstive css */
+@media (min-width: 576px) {
+    .axsis-testimonial-container {
+        padding: 20px 20px 80px 20px;
+        overflow: hidden; 
+    } 
+}
+@media (min-width: 992px) {
+    .axsis-testimonial-container .author-image {
+        margin: unset; 
+    } 
+    .axsis-testimonial-container .testimonial-content {
+        width: calc(100% - 90px);
+        text-align: left;
+        padding-left: 20px; 
+    }
+    .axsis-testimonial-container .testimonial-content .rating {
+        margin-top: 0;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: 0; 
+    } 
+}

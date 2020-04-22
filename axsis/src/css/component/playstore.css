@@ -1,0 +1,36 @@
+
+
+.play-store .custom-btn {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+}
+.play-store .custom-btn svg {
+    font-size: 27px;
+    margin-right: 10px;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.play-store .custom-btn p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.play-store .custom-btn p span {
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
