@@ -1,0 +1,2 @@
+(this.webpackJsonpaxsis=this.webpackJsonpaxsis||[]).push([[66],{213:function(s,e,n){"use strict";function t(s){s.languages.json={property:{pattern:/"(?:\\.|[^\\"\r\n])*"(?=\s*:)/,greedy:!0},string:{pattern:/"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,greedy:!0},comment:/\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/,number:/-?\d+\.?\d*(e[+-]?\d+)?/i,punctuation:/[{}[\],]/,operator:/:/,boolean:/\b(?:true|false)\b/,null:{pattern:/\bnull\b/,alias:"keyword"}}}s.exports=t,t.displayName="json",t.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_json.6b21b612.chunk.js.map

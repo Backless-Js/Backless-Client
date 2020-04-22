@@ -1,0 +1,2 @@
+(this.webpackJsonpaxsis=this.webpackJsonpaxsis||[]).push([[60],{209:function(t,s,i){"use strict";function n(t){t.languages.ini={comment:/^[ \t]*[;#].*$/m,selector:/^[ \t]*\[.*?\]/m,constant:/^[ \t]*[^\s=]+?(?=[ \t]*=)/m,"attr-value":{pattern:/=.*/,inside:{punctuation:/^[=]/}}}}t.exports=n,n.displayName="ini",n.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_ini.c9d7dfa2.chunk.js.map
